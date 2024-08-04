@@ -1,4 +1,4 @@
-#About the data:
+# About the data:
 
 The given dataset contains pricing information for various items sold at a retail store and their corresponding prices at competing stores. 
 
