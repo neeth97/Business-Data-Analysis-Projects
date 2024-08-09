@@ -16,4 +16,4 @@ I use ACF and PACF graphs to analyze Catfish Sales data to fit an ARMA model.
 
 I do not take seasonality into consideration during my analysis. 
 
-Look at my code and analysis in the folder [Time Series: ARIMA](https://github.com/neeth97/Business-Data-Analysis-Projects/tree/main/Time%20Series%3A%20ARIMA) where I use the SARIMA model on the same catfish sales data to build a forecasting model.
+Look at my code and analysis in the folder [Time Series: ARIMA](https://github.com/neeth97/Business-Data-Analysis-Projects/tree/main/Time%20Series:%20SARIMA) where I use the SARIMA model on the same catfish sales data to build a forecasting model.
