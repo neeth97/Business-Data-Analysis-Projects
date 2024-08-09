@@ -11,9 +11,3 @@ I use ACF and PACF graphs to analyze Catfish Sales data to fit an ARMA model.
 **Residuals:** I see that residuals are somewhat centered around 0 but are growing to absolute extreme values, that is something to watch out for.
 
 **Actual vs Predictions:** I see that my predictions are mirroring the actual sales in the initial months but I do observe that they deviate from the actual sales later on. That is because I do not consider seasonality.
-
-## Note
-
-I do not take seasonality into consideration during my analysis. 
-
-Look at my code and analysis in the folder [Time Series: Seasonal ARIMA](https://github.com/neeth97/Business-Data-Analysis-Projects/tree/main/Time%20Series:%20Seasonal%20ARIMA) where I use the SARIMA model on the same catfish sales data to build a forecasting model.
