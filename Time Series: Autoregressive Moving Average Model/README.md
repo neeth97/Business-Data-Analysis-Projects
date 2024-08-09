@@ -1,7 +1,7 @@
 ## Objective
 I use ACF and PACF graphs to analyze Catfish Sales data to fit an ARMA model.
 
-## Analysis
+## ARMA Analysis
 **ACF:** Based on the ACF graph we see that the lag at 1 is pretty high but it shuts off at 2. I do see that they are high for 3 and 4 but I will start with MA(1) for now.
 
 **PACF:** Based on PACF I see that the lag at 4 is the strongest and there are pretty strong lags at 12 showing a strong seasonality. So I start with AR(4)
@@ -11,3 +11,8 @@ I use ACF and PACF graphs to analyze Catfish Sales data to fit an ARMA model.
 **Residuals:** I see that residuals are somewhat centered around 0 but are growing to absolute extreme values, that is something to watch out for.
 
 **Actual vs Predictions:** I see that my predictions are mirroring the actual sales in the initial months but I do observe that they deviate from the actual sales later on. That is because I do not consider seasonality.
+
+## Seasonal ARIMA
+
+![seasonal arima](https://github.com/user-attachments/assets/6bfdef99-289e-43bc-bcca-bbdc29bf0eb9)
+
